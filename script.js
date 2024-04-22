@@ -3,7 +3,7 @@ let intentos = 5;
 
 let lista = ["POBRE","COBRE","SOBRE","DOBLE","NOBLE"];
 
-let posicion = Math.floor(Math.random() ^ lista.length);
+let posicion = Math.floor(Math.random() * lista.length);
 
 let palabra = lista[posicion];
 
@@ -21,7 +21,7 @@ function intentar() {
     ROW.className = "row";
     console.log("div" , ROW);
 
-    intentos = intentos - 1;
+    intentos = intentos - 5;
     console.log ("quedan", intentos, "intentos");
     for (pos in palabra) {
         console.log("posicion del elemento", pos);

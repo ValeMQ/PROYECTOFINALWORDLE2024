@@ -13,20 +13,20 @@ body {
     display: block;
     margin: 0 auto 20px;
     padding: 20px;
-    font-size: 18px;
+    font-size: 25px;
     width: 250px;
-    border: 1px solid #ccc;
+    border: 2px solid #fbf8f8;
   }
      
   #guess-button {
     display: block;
     margin: 0 auto;
     padding: 10px 20px;
-    font-size: 18px;
-    background-color: #000808;
+    font-size: 20px;
+    background-color: #000505;
     color: #fff;
-    border: white;
-    border-radius: 3px;
+    border: rgb(4, 4, 4);
+    border-radius: 5px;
   }
      
   button:active {
@@ -34,9 +34,9 @@ body {
   }
      
   .letter {
-      border: 1px solid rgb(247, 246, 246);
-      padding: 3px;
-      margin: 3px;
+      border: 3px solid rgb(247, 246, 246);
+      padding: 5px;
+      margin: 5px;
       min-width: 20px;
       text-align: center;
       display: inline-block
