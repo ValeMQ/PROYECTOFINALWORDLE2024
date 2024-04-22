@@ -31,7 +31,7 @@ function intentar() {
         if (intento[pos] === palabra[pos]) {
             console.log(intento[pos], "verde");
             SPAN.style.backgroundColor = "green";
-            } else if (palabra.includes(intento [pos])) {
+            } else if (palabra.includes(intento[pos])) {
                 console.log(intento[pos], "amarillo");
                 SPAN.style.backgroundColor = "yellow";
             } else {
@@ -42,13 +42,12 @@ function intentar() {
     }
     GRID.appendChild(ROW) ;
     if (palabra === intento) {
-        terminar ("<h1>GANASTE!</h1>") ;
+        terminar ("<h1> SIUUU GANHOU!</h1>") ;
     }
-    if (intentos === 0) {
+    if (intento === 5) {
         terminar("<h1>PERDISTE!</h1>") ;
     }
 }
-
     function leerIntento () {
         return INPUT.value.toUpperCase();
     }

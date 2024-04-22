@@ -6,16 +6,17 @@ body {
      
   h1 {
     text-align: center;
-    margin-top: 60px;
+    margin-top: 30px;
+    color:#f5f5bd
   }
      
   #guess-input {
     display: block;
     margin: 0 auto 20px;
     padding: 20px;
-    font-size: 25px;
+    font-size: 30px;
     width: 250px;
-    border: 2px solid #fbf8f8;
+    border: 1px solid #0a0000;
   }
      
   #guess-button {
@@ -34,9 +35,9 @@ body {
   }
      
   .letter {
-      border: 3px solid rgb(247, 246, 246);
-      padding: 5px;
-      margin: 5px;
+      border: 1px solid rgb(247, 246, 246);
+      padding: 3px;
+      margin: 3px;
       min-width: 20px;
       text-align: center;
       display: inline-block
